@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_technical_test/features/sub_reddit/presentation/pages/reddit_post_page.dart';
 
 import 'injection_container.dart' as di;
 
@@ -22,7 +23,7 @@ class AppWidget extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: 'subreddit',
       routes: {
-        'subreddit': (context) => null,
+        'subreddit': (context) => SubRedditPage(),
       },
     );
   }
