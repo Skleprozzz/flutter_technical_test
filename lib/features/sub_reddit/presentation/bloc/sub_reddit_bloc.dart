@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter_technical_test/features/sub_reddit/domain/entities/sub_reddit.dart';
 import 'package:meta/meta.dart';
 
 import '../../../../core/errors/failures.dart';
 import '../../data/models/sub_reddit_model.dart';
+import '../../domain/entities/sub_reddit.dart';
 import '../../domain/usecases/get_sub_reddit.dart';
 
 part 'sub_reddit_event.dart';
